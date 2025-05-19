@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guía de Rendimiento Android</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://cdn.discordapp.com/attachments/1369352762697191626/1374138063948742766/FB_IMG_1744026953750.jpg?ex=682cf54c&is=682ba3cc&hm=f51bebd9d39806c41d08e8958e1692e2698df8f4e6f7f6c185da6214b90d30c7') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      color: #ffcc00;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    code {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2px 4px;
+      border-radius: 4px;
+      color: #ccc;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="content">
+      <p><a href="https://guns.lol/facha_viva" target="_blank">Visita mis redes sociales</a></p>
+
+      <h1>Guía Definitiva para Aumentar el Rendimiento de tu Celular Android</h1>
+
+      <section>
+        <h2>1. Configuraciones Generales del Sistema</h2>
+        <ul>
+          <li>Desactiva animaciones:<br>
+            <code>Ajustes > Opciones de desarrollador > Escala de animación</code> - pon todo en 0.5x o Desactivado</li>
+          <li>Desactiva sincronización automática en <code>Ajustes > Cuentas</code></li>
+          <li>Apaga Bluetooth, NFC, ubicación si no los necesitas</li>
+          <li>Usa fondo estático, elimina widgets innecesarios</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Opciones de Desarrollador</h2>
+        <ul>
+          <li>Activar en <code>Ajustes > Acerca del teléfono > 7 toques en "Número de compilación"</code></li>
+          <li>Limitar procesos en segundo plano a 3</li>
+          <li>Forzar renderización por GPU y desactivar capas HW</li>
+          <li>No mantener actividades (opcional)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Aplicaciones que Puedes Eliminar o Configurar</h2>
+        <ul>
+          <li>Eliminar: Facebook, Instagram, TikTok, YouTube si no se usa</li>
+          <li>Desactivar Bloatware como Temas, Game Center, Mi Video</li>
+          <li>En <code>Ajustes > Batería > Uso de batería > [App]</code> configura:
+            <ul>
+              <li>Permitir uso completo</li>
+              <li>No restringir en segundo plano</li>
+              <li>No optimizar</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Force App Stop</h2>
+        <ol>
+          <li>Instala desde Google Play</li>
+          <li>Activa permisos de accesibilidad</li>
+          <li>Selecciona apps</li>
+          <li>Pulsa "Forzar todas" para cerrar apps y liberar RAM</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>5. Usar Brevent (Sin Root ni PC)</h2>
+        <ol>
+          <li>Activa <b>Depuración inalámbrica</b> en Opciones de desarrollador</li>
+          <li>Instala Brevent desde APKMirror</li>
+          <li>Abre la app y sigue los pasos para conexión inalámbrica</li>
+          <li>Selecciona apps que deseas impedir que se reinicien automáticamente</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>6. Usar Pixels App con Brevent</h2>
+        <ol>
+          <li>Instala Pixels App desde Google Play</li>
+          <li>Reduce la resolución/DPI según tus necesidades</li>
+          <li>La app te mostrará un código similar a:<br>
+            <code>sh /sdcard/Android/data/me.piebridge.brevent/pixels_code.sh</code>
+          </li>
+          <li>Copia ese código y pégalo en Brevent</li>
+          <li>Ejecuta para aplicar configuración y mejorar FPS</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>7. Recomendaciones Extra</h2>
+        <ul>
+          <li>Reinicia tu celular cada 2-3 días</li>
+          <li>Usa apps ligeras: Google Go, Opera Mini</li>
+          <li>No uses task killers, son contraproducentes</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
